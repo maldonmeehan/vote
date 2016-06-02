@@ -1,14 +1,16 @@
 $(document).ready(function() {
+  $("#animal form").submit(function(event)
+  var animal = $("#animal").val();
 
-var beverage = $("#animal").val();
 
+if (animal === 1) {
+  $('#turtle').show();
+} else if (animal === 2) {
+  $('#snake').show();
+} else { (animal === 3)
+  $('#spider').show();
+}
 
-  if (animal === "turtle") {
-    $('#turtle').show();
-  } else if (animal === "snake") {
-    $('#snake').show();
-  } else {
-    $('#spider').show();
-  }
-
+event.preventDefault();
+  });
 });
