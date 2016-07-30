@@ -1,4 +1,4 @@
-# Calculator Stie | Intro to Programming
+# Vote Site | Intro to Programming
 
 #### A JS Exercise for Epicodus, June 2, 2016
 
